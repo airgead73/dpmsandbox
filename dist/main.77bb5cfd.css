@@ -1,0 +1,32 @@
+body {
+  font-size: 1rem; }
+
+.header {
+  margin-left: 600px;
+  min-height: 100vh; }
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  max-width: 550px;
+  padding: 0 12px; }
+  .nav__h1 a {
+    text-decoration: none; }
+  .nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0; }
+  .nav__item {
+    display: inline-block;
+    margin-right: 5px; }
+
+.main {
+  margin-left: 600px; }
+
+.section {
+  min-height: 100vh; }
+
+
+/*# sourceMappingURL=/main.77bb5cfd.css.map */

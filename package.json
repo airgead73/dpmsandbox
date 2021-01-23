@@ -6,7 +6,8 @@
   "scripts": {
     "sass": "sass --watch src/scss:dist/css",
     "start": "parcel src/index.html",
-    "build": "rm -rf dist/* && parcel build src/index.html"
+    "build": "rm -rf dist/* && parcel build src/index.html",
+    "clear": "rm -rf dist/*"
   },
   "author": "",
   "license": "ISC",
