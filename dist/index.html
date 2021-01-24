@@ -11,7 +11,7 @@
 <body>
   <main class="container" id="#top">
     <div class="row">
-      <!-- <div class="col-md-12">
+      <!--<div class="col-md-12">
         <div class="card">
           <header class="card-header">links</header>
           <div class="card-body">
@@ -319,6 +319,9 @@
       <div class="col-md-12 mt-3">
         <div class="card">
           <header class="card-header">
+            videos
+          </header>
+          <div class="card-body">
             <table class="table">
               <thead>
                 <tr>
@@ -330,38 +333,55 @@
               <tbody>
                 <tr>
                   <td>ENG122</td>
-                  <td></td>
-                  <td></td>
+                  <td>1.1</td>
+                  <td><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#storyline" data-bs-title="title" data-bs-src="src">
+                    title
+                  </button></td>
                 </tr>
 
               </tbody>
-            </table>
-          </header>
-          <div class="card-body">videos</div>
+            </table>            
+          </div>
           <div class="card-footer"><a href="#top">back to top</a></div>
         </div>
       </div>
       <div class="col-md-12 mt-3">
         <div class="card">
           <header class="card-header">activities</header>
-          <div class="card-body">activities</div>
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>book</th>
+                  <th>section</th>
+                  <th>title</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ENG122</td>
+                  <td>1.1</td>
+                  <td><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#video" data-bs-title="title" data-bs-src="src">
+                    title
+                  </button></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
           <div class="card-footer"><a href="#top">back to top</a></div>
         </div>
       </div>
     </div>
   </main>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Storyline -->
+<div class="modal fade" id="storyline" tabindex="-1" aria-labelledby="storylineLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="storylineLabel">storyline</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -369,16 +389,30 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
- 
 
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> -->
-<script src="/app.c3f9f951.js"></script>
+<!-- Video -->
+<div class="modal fade" id="video" tabindex="-1" aria-labelledby="videoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="storylineLabel">video</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="/app.c3f9f951.js"></script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 <body>
   <main class="container" id="#top">
     <div class="row">
-      <div class="col-md-12">
+      <!--<div class="col-md-12">
         <div class="card">
           <header class="card-header">links</header>
           <div class="card-body">
@@ -319,7 +319,7 @@
       <div class="col-md-12 mt-3">
         <div class="card">
           <header class="card-header">
-
+            videos
           </header>
           <div class="card-body">
             <table class="table">
@@ -333,8 +333,10 @@
               <tbody>
                 <tr>
                   <td>ENG122</td>
-                  <td></td>
-                  <td></td>
+                  <td>1.1</td>
+                  <td><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#storyline" data-bs-title="title" data-bs-src="src">
+                    title
+                  </button></td>
                 </tr>
 
               </tbody>
@@ -358,8 +360,10 @@
               <tbody>
                 <tr>
                   <td>ENG122</td>
-                  <td></td>
-                  <td></td>
+                  <td>1.1</td>
+                  <td><button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#video" data-bs-title="title" data-bs-src="src">
+                    title
+                  </button></td>
                 </tr>
 
               </tbody>
@@ -371,15 +375,13 @@
     </div>
   </main>
 
-<!-- Button trigger modal -->
 
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Storyline -->
+<div class="modal fade" id="storyline" tabindex="-1" aria-labelledby="storylineLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="storylineLabel">storyline</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -387,13 +389,30 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
 </div>
 
-<script src="js/app.js"></script>
+<!-- Video -->
+<div class="modal fade" id="video" tabindex="-1" aria-labelledby="videoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="storylineLabel">video</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
 </body>
 
 </html>
