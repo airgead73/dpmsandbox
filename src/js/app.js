@@ -1,2 +1,2 @@
-require('bootstrap');
-console.log('app loaded')
+import 'bootstrap';
+console.log('app loaded');
