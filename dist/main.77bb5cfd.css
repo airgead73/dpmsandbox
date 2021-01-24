@@ -7505,8 +7505,10 @@ textarea.form-control-lg {
   .close:hover {
     color: #b9a78a; }
 
-.btn.active {
-  border: 1px solid #325d88; }
+#linkList,
+#activityList,
+#videoList {
+  padding-top: 75px; }
 
 
 /*# sourceMappingURL=/main.77bb5cfd.css.map */

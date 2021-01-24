@@ -9,9 +9,33 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#top">Resources from ENG121 and ENG122</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#linkList">links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#activityList">activities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videoList">video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#top" tabindex="-1" aria-disabled="true">back to top</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
   <main class="container" id="#top">
     <div class="row">
-      <!--<div class="col-md-12">
+      <div class="col-md-12" id="linkList">
         <div class="card">
           <header class="card-header">links</header>
           <div class="card-body">
@@ -314,9 +338,9 @@
           </div>
           <div class="card-footer"><a href="#top">back to top</a></div>
         </div>
-      </div> -->
+      </div>
       
-      <div class="col-md-12 mt-3">
+      <div class="col-md-6 mt-3" id="activityList">
         <div class="card">
           <header class="card-header">
             activities
@@ -470,7 +494,7 @@
           <div class="card-footer"><a href="#top">back to top</a></div>
         </div>
       </div>
-      <div class="col-md-12 mt-3">
+      <div class="col-md-6 mt-3" id="videoList">
         <div class="card">
           <header class="card-header">videos</header>
           <div class="card-body">
@@ -483,7 +507,6 @@
                 </tr>
               </thead>
               <tbody>
-                <!-- (tr>td{ENG121}+td{section}td>button[type="button"].btn.btn-link[data-bs-toggle="modal"][data-bs-target="#video"][data-bs-title="title"][data-bs-src="src"]{title}) --> 
                 <tr>
                   <td>ENG121</td>
                   <td>1.2</td>
