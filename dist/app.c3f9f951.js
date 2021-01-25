@@ -7955,27 +7955,6 @@ onDOMContentLoaded(function () {
 "use strict";
 
 require("bootstrap");
-
-var storylineModal = document.getElementById('storyline');
-var videoModal = document.getElementById('video');
-storylineModal.addEventListener('show.bs.modal', function (e) {
-  var button = e.relatedTarget;
-  var title = button.getAttribute('data-bs-title');
-  var src = button.getAttribute('data-bs-src');
-  var modalTitle = storylineModal.querySelector('.modal-title');
-  var modalIframe = storylineModal.querySelector('iframe');
-  modalTitle.textContent = title;
-  modalIframe.setAttribute('src', src);
-});
-videoModal.addEventListener('shown.bs.modal', function (e) {
-  var button = e.relatedTarget;
-  var title = button.getAttribute('data-bs-title');
-  var src = button.getAttribute('data-bs-src');
-  var modalTitle = videoModal.querySelector('.modal-title');
-  var modalSource = videoModal.querySelector('source');
-  modalTitle.textContent = title;
-  modalSource.setAttribute('src', src);
-});
 },{"bootstrap":"../node_modules/bootstrap/dist/js/bootstrap.esm.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
