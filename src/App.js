@@ -6,6 +6,7 @@ import Home from './comps/Home';
 import Videos from './comps/Videos';
 import Hyperlinks from './comps/Hyperlinks';
 import Activities from './comps/Activities';
+import Figures from './comps/Figures';
 
 function App() {
   return (
@@ -24,7 +25,10 @@ function App() {
           </Route> 
           <Route exact path="/videos">
             <Videos/>
-          </Route>                           
+          </Route>  
+          <Route exact path="/figures">
+            <Figures/>
+          </Route>                                    
         </Switch>
       </Main>      
     </Router>
