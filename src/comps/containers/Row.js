@@ -7,4 +7,4 @@ const Row = (props) => {
    );
 }
  
-export default Column;
+export default Row;
