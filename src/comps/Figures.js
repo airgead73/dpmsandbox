@@ -32,10 +32,10 @@ const Figures = () => {
                 {items.map((item) => (
                   <tr key={item.id}>
                     <td>{item.book}</td>
-                    <td>section</td>                    
+                    <td>{item.section}</td>                    
                     <td><a href={`${urlBase}${item.file}`} target="_blank">{item.number}</a></td>
-                    <td>title</td>
-                    <td>caption</td>
+                    <td>{item.title}</td>
+                    <td>{item.caption}</td>
                   </tr>
                 ))}
 
